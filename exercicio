@@ -1,0 +1,84 @@
+
+1)	Construa um algoritmo que calcule a área de um triângulo dado a base e a altura (at=(altura +base )/2.
+
+Algoritmo“Area_do_triangulo”
+Var 
+base, altura:inteiro
+Var 
+area:real
+Início 
+Escreva (“insira o valor da base;”)
+Leia (base)
+Escreva (“digite a altura;”)
+Leia (altura)
+Area<-(base+altura)/2
+Escreva(“A área do triângulo é:”,area)
+
+Fimalgoritimo
+
+ 2) construir um algoritmo que leia o ano de nascimento  de uma pessoa e o ano atual, calcule e mostre:
+
+Algoritimo: “Nasc”
+Var 
+Nascimento,atual,idade:real
+
+Início
+Escreva (“qual o ano de nascimento da pessoa? “)
+Leia (nascimento)
+Escreva (“Qual o ano atual?”)
+Leia (Atual)
+Idade <- atual-nascimento 
+Escreva (“idade.”,idade)
+Fimalgoritimo
+
+
+3)	sabe- se Que um quilowatt de energia custa 1/500 do salário mínimo. Faça um algoritmo que receba o valor do salário mínimo e a  quantidade de quilowatts consumida por uma residência. calcule e mostre:
+
+
+▶️O valor, em reais, de cada quilowatt;
+▶️O valor, em reais ,a ser pago por essa residência
+▶️O valor, em reais, a ser pago com desconto de 15%
+
+Algoritmo : “ consumo”
+
+Var 
+Salariomin, qtdconsumo, valorporkw,valortotal,desconto :real
+inicio
+Escreval (“qual o valor do salário Mínimo?”)
+Leia (salariomin)
+Escreval ( “qual  o consumo de quilowatt da sua casa”)
+Leia (qtdconsumo)
+Valorporkw  <- (salariomin/500)
+Valortotal  <- valorporkw *qtdconsumo
+Desconto <- valortotal- (valortotal*15)100
+Escreval (“ De acordo com seu salário, cada quilowatt consumido vai ser cobrado:R$”,desconto)
+Fimalgoritimo
+
+4)	Faça um algoritmo que receba um número, calcule e mostre:
+
+ ▶️ O número elevado ao quadrado;
+▶️O número elavado ao cubo ;
+▶️A raiz quadrada do número digitado;
+▶️O número elevado a potência de 10;
+
+
+Algoritimo “meu_calculo”
+
+Var
+num:real 
+
+início 
+Escreva (“ digite um número para elevamos  ao quadrado:”)
+Leia (num)
+num<- num^2
+Escreval (“o resultado do seu número elevado ao quadrado é: ”,num)
+Escreval (“agora digite o número novamente para elevar ao cubo:”)
+Leia (num)
+Num <-raizq(num)
+Escreval (“A raiz quadrada do seu número,é:”num)
+Escreva (“agora vamos elevar o número que voce pode digitar a potência 10:”)
+Leia (num)
+num <- num^10
+Escreva (“ o resultado será :”num)
+Fimalgoritimo
+
